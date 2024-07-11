@@ -229,82 +229,27 @@
                 <span>WHY CHOOSE US</span>
                 <h1>WHY WE ARE BEST</h1>
             </div>
-            <div class="row mar-1">
-                <div class="about-col-1">
-                    <img src="1.svg" alt="">
-                    <h3>Clarified Vision &amp; Target</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
-                </div>
-                <div class="about-col-2">
-                    <img src="2.svg" alt="">
-                    <h3>High Performance</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
-                </div>
-                <div class="about-col-3 ">
-                    <img src="3.svg" alt="">
-                    <h3>Maintain Security</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
-                </div>
-                <div class="about-col-4">
-                    <img src="4.svg" alt="">
-                    <h3>Better Strategy &amp; Quality</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!</p>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-heading">
-                    <span>OUR PROJECT</span>
-                    <h1>WHY WE ARE BEST</h1>
-                </div>
-                <div class="row">
+                          <div class="row">
                     <div class="project-col-1">
                         <div class="photos">
-                            <img id="mainImage" src="Assets/images/image.png" alt="">
+                            <img id="mainImage" src="image.png" alt="">
                         </div>
                     </div>
                     <div class="project-col-2">
-                        <div class="about-photos grey" onclick="changeImage('Assets/images/japan1.jpg')">
+                        <div class="about-photos grey" onclick="changeImage(image.png)">
                             <h3>Genderless Kei - Japan's Hot</h3>
                             <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
                             </p>
                         </div>
-                        <div class="about-photos grey selected" id="default-selected" onclick="changeImage('Assets/images/image.png')">
+                        <div class="about-photos grey" id="default-selected" onclick="changeImage(j)">
                             <h3>Better Startegy &amp; Quality</h3>
                             <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
                             </p>
                         </div>
-                        <div class="about-photos grey" onclick="changeImage('Assets/images/japan3.jpg')">
+                        <div class="about-photos grey selected" onclick="changeImage(image.png)">
                             <h3>Genderless Kei - Japan's Hot</h3>
-                            <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <script>
-                // Function to change the main image
-                function changeImage(src) {
-                    document.getElementById('mainImage').src = src;
-                }
-            
-                // Automatic slideshow
-                const images = [
-                    'Assets/images/image.png',
-                    'Assets/images/japan1.jpg',
-                    'Assets/images/japan3.jpg'
-                ];
-                let currentIndex = 0;
-            
-                function showNextImage() {
-                    currentIndex = (currentIndex + 1) % images.length;
-                    changeImage(images[currentIndex]);
-                }
-            
-                // Change image every 3 seconds (3000 milliseconds)
-                setInterval(showNextImage, 3000);
-            </script>
-            
+                          
+    </div>
 
 
     <!-- --------------------------growth-panel------------------------ -->
